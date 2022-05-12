@@ -404,6 +404,16 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
+
+              <p className='text-right text-sm text-gray-400'>
+                Designed by{' '}
+                <a
+                  className='text-white underline'
+                  href='https://dribbble.com/NicolasMzrd'
+                >
+                  Nicolas Meuzard
+                </a>
+              </p>
             </div>
           </div>
         </section>
