@@ -16,9 +16,9 @@ const TechnologyCard = ({ icon, name, desc, rating }: ITechnologyCard) => {
       <div>
         <h3>{name}</h3>
 
-        <p>{desc}</p>
+        <p className='text-s text-gray-300'>{desc}</p>
 
-        <p className='mt-3 flex gap-2 text-sm tracking-widest text-gray-300'>
+        <p className='mt-3 flex gap-2 text-xs tracking-widest text-gray-300'>
           <GrayStar className='h-5 w-5' />
           {rating}
         </p>
