@@ -112,7 +112,7 @@ const HomePage = () => {
                   <h1 className='whitespace-nowrap text-6xl md:text-7xl'>
                     I&apos;m Raymond.
                   </h1>
-                  <h3 className='mt-3'>A Passionate Software Engineer</h3>
+                  <h3 className='mt-3'>A passionate Software Engineer</h3>
                 </div>
 
                 <div>
@@ -124,8 +124,8 @@ const HomePage = () => {
                     </span>{' '}
                     student but I have been a{' '}
                     <span className='font-bold underline'>self-taught</span>{' '}
-                    self-taught developer for over 3 years. I enjoy taking
-                    mobile apps and beautiful web applications from design to a{' '}
+                    developer for over 3 years. I enjoy taking mobile apps and
+                    beautiful web applications from design to a{' '}
                     <span className='font-bold underline'>
                       fully working product.
                     </span>{' '}
