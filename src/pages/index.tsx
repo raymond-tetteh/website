@@ -281,24 +281,28 @@ const HomePage = () => {
                     technology='flutter'
                     description='Learn to code on your phone with friends and Kwame, an AI TA'
                     rating='2,000'
+                    url='https://suacode.ai'
                   />
                   <ProjectCard
                     name='Learn With Mochi'
                     technology='Next.js'
                     description='A simple programming kit that will change how your child sees the world.'
                     rating='10,000'
+                    url='https://learnwithmochi.com'
                   />
                   <ProjectCard
                     name='Nimdee'
                     technology='Flutter | Next.js'
                     description='Learn basic IT skills at the tap of a finger'
                     rating='40'
+                    url='https://nimdeeapp.com'
                   />
                   <ProjectCard
                     name='MiNFT'
                     technology='Web3 | Next.js'
                     description='The place for crowd-source alpha on the hottest NFT projects'
                     rating='1,200'
+                    url='https://minft.me'
                   />
                 </div>
               </div>
@@ -399,6 +403,12 @@ const HomePage = () => {
                       }
                       name='Firebase'
                       desc='Experience with Firebase Services I have built various application using firebase services such as firestore, storage, cloud functions, dynamic links, hosting among others.'
+                      rating='4.0'
+                    />
+                    <TechnologyCard
+                      icon={<></>}
+                      name='Web3'
+                      desc='Experience with the ethereum network using web3 and solidity'
                       rating='4.0'
                     />
                   </div>
