@@ -304,6 +304,13 @@ const HomePage = () => {
                     rating='1,200'
                     url='https://minft.me'
                   />
+                  <ProjectCard
+                    name='Groital'
+                    technology='Next.js | Wordpress'
+                    description='Groital is an agribusiness focused on the cultivation and processing of fruits and vegetables into dried products for local and international supply'
+                    rating='1,200'
+                    url='https://groital.com'
+                  />
                 </div>
               </div>
 
