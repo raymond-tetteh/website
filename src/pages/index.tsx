@@ -179,7 +179,12 @@ const HomePage = () => {
                 {/* Social Links  */}
                 <div className='absolute bottom-20 flex items-center gap-5 md:bottom-0 '>
                   <div className='hidden h-12 w-12 rounded-full bg-white md:flex'>
-                    {' '}
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src='/images/logo.png'
+                      alt='logo'
+                      className='rounded-full border-2'
+                    />
                   </div>
                   <UnstyledLink
                     className='cursor-pointer'
@@ -279,7 +284,7 @@ const HomePage = () => {
                   <ProjectCard
                     name='SuaCode.ai'
                     technology='flutter'
-                    description='Learn to code on your phone with friends and Kwame, an AI TA'
+                    description='Learn to code on your phone with friends and Kwame, an AI Teaching Assistant'
                     rating='2,000'
                     url='https://suacode.ai'
                   />
